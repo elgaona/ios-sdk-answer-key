@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4C92BE27B3058400FB5D80 /* eddiegaona_Amp_iOS_SDKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C92BD27B3058400FB5D80 /* eddiegaona_Amp_iOS_SDKApp.swift */; };
+		5D4C92C027B3058400FB5D80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C92BF27B3058400FB5D80 /* ContentView.swift */; };
+		5D4C92C227B3058600FB5D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4C92C127B3058600FB5D80 /* Assets.xcassets */; };
+		5D4C92C527B3058600FB5D80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4C92C427B3058600FB5D80 /* Preview Assets.xcassets */; };
+		5D4C92CF27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C92CE27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKTests.swift */; };
+		5D4C92D927B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C92D827B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITests.swift */; };
+		5D4C92DB27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C92DA27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITestsLaunchTests.swift */; };
+		5D5DA96527CEF4D3006205B3 /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = 5D5DA96427CEF4D3006205B3 /* Amplitude */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D4C92CB27B3058700FB5D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4C92B227B3058400FB5D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4C92B927B3058400FB5D80;
+			remoteInfo = "eddiegaona-Amp-iOS-SDK";
+		};
+		5D4C92D527B3058700FB5D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4C92B227B3058400FB5D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4C92B927B3058400FB5D80;
+			remoteInfo = "eddiegaona-Amp-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D4C92BA27B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eddiegaona-Amp-iOS-SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4C92BD27B3058400FB5D80 /* eddiegaona_Amp_iOS_SDKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eddiegaona_Amp_iOS_SDKApp.swift; sourceTree = "<group>"; };
+		5D4C92BF27B3058400FB5D80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D4C92C127B3058600FB5D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D4C92C427B3058600FB5D80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D4C92CA27B3058600FB5D80 /* eddiegaona-Amp-iOS-SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eddiegaona-Amp-iOS-SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4C92CE27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eddiegaona_Amp_iOS_SDKTests.swift; sourceTree = "<group>"; };
+		5D4C92D427B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eddiegaona-Amp-iOS-SDKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4C92D827B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eddiegaona_Amp_iOS_SDKUITests.swift; sourceTree = "<group>"; };
+		5D4C92DA27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eddiegaona_Amp_iOS_SDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D4C92B727B3058400FB5D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5DA96527CEF4D3006205B3 /* Amplitude in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4C92C727B3058600FB5D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4C92D127B3058700FB5D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D4C92B127B3058300FB5D80 = {
+			isa = PBXGroup;
+			children = (
+				5D4C92BC27B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK */,
+				5D4C92CD27B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKTests */,
+				5D4C92D727B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKUITests */,
+				5D4C92BB27B3058400FB5D80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D4C92BB27B3058400FB5D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C92BA27B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK.app */,
+				5D4C92CA27B3058600FB5D80 /* eddiegaona-Amp-iOS-SDKTests.xctest */,
+				5D4C92D427B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4C92BC27B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C92BD27B3058400FB5D80 /* eddiegaona_Amp_iOS_SDKApp.swift */,
+				5D4C92BF27B3058400FB5D80 /* ContentView.swift */,
+				5D4C92C127B3058600FB5D80 /* Assets.xcassets */,
+				5D4C92C327B3058600FB5D80 /* Preview Content */,
+			);
+			path = "eddiegaona-Amp-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		5D4C92C327B3058600FB5D80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C92C427B3058600FB5D80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D4C92CD27B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C92CE27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKTests.swift */,
+			);
+			path = "eddiegaona-Amp-iOS-SDKTests";
+			sourceTree = "<group>";
+		};
+		5D4C92D727B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C92D827B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITests.swift */,
+				5D4C92DA27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITestsLaunchTests.swift */,
+			);
+			path = "eddiegaona-Amp-iOS-SDKUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D4C92B927B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4C92DE27B3058700FB5D80 /* Build configuration list for PBXNativeTarget "eddiegaona-Amp-iOS-SDK" */;
+			buildPhases = (
+				5D4C92B627B3058400FB5D80 /* Sources */,
+				5D4C92B727B3058400FB5D80 /* Frameworks */,
+				5D4C92B827B3058400FB5D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eddiegaona-Amp-iOS-SDK";
+			packageProductDependencies = (
+				5D5DA96427CEF4D3006205B3 /* Amplitude */,
+			);
+			productName = "eddiegaona-Amp-iOS-SDK";
+			productReference = 5D4C92BA27B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D4C92C927B3058600FB5D80 /* eddiegaona-Amp-iOS-SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4C92E127B3058700FB5D80 /* Build configuration list for PBXNativeTarget "eddiegaona-Amp-iOS-SDKTests" */;
+			buildPhases = (
+				5D4C92C627B3058600FB5D80 /* Sources */,
+				5D4C92C727B3058600FB5D80 /* Frameworks */,
+				5D4C92C827B3058600FB5D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4C92CC27B3058700FB5D80 /* PBXTargetDependency */,
+			);
+			name = "eddiegaona-Amp-iOS-SDKTests";
+			productName = "eddiegaona-Amp-iOS-SDKTests";
+			productReference = 5D4C92CA27B3058600FB5D80 /* eddiegaona-Amp-iOS-SDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D4C92D327B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4C92E427B3058700FB5D80 /* Build configuration list for PBXNativeTarget "eddiegaona-Amp-iOS-SDKUITests" */;
+			buildPhases = (
+				5D4C92D027B3058700FB5D80 /* Sources */,
+				5D4C92D127B3058700FB5D80 /* Frameworks */,
+				5D4C92D227B3058700FB5D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4C92D627B3058700FB5D80 /* PBXTargetDependency */,
+			);
+			name = "eddiegaona-Amp-iOS-SDKUITests";
+			productName = "eddiegaona-Amp-iOS-SDKUITests";
+			productReference = 5D4C92D427B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D4C92B227B3058400FB5D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5D4C92B927B3058400FB5D80 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5D4C92C927B3058600FB5D80 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5D4C92B927B3058400FB5D80;
+					};
+					5D4C92D327B3058700FB5D80 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5D4C92B927B3058400FB5D80;
+					};
+				};
+			};
+			buildConfigurationList = 5D4C92B527B3058400FB5D80 /* Build configuration list for PBXProject "eddiegaona-Amp-iOS-SDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D4C92B127B3058300FB5D80;
+			packageReferences = (
+				5D5DA96327CEF4D3006205B3 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */,
+			);
+			productRefGroup = 5D4C92BB27B3058400FB5D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D4C92B927B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK */,
+				5D4C92C927B3058600FB5D80 /* eddiegaona-Amp-iOS-SDKTests */,
+				5D4C92D327B3058700FB5D80 /* eddiegaona-Amp-iOS-SDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4C92B827B3058400FB5D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4C92C527B3058600FB5D80 /* Preview Assets.xcassets in Resources */,
+				5D4C92C227B3058600FB5D80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4C92C827B3058600FB5D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4C92D227B3058700FB5D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D4C92B627B3058400FB5D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4C92C027B3058400FB5D80 /* ContentView.swift in Sources */,
+				5D4C92BE27B3058400FB5D80 /* eddiegaona_Amp_iOS_SDKApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4C92C627B3058600FB5D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4C92CF27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4C92D027B3058700FB5D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4C92D927B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITests.swift in Sources */,
+				5D4C92DB27B3058700FB5D80 /* eddiegaona_Amp_iOS_SDKUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D4C92CC27B3058700FB5D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4C92B927B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK */;
+			targetProxy = 5D4C92CB27B3058700FB5D80 /* PBXContainerItemProxy */;
+		};
+		5D4C92D627B3058700FB5D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4C92B927B3058400FB5D80 /* eddiegaona-Amp-iOS-SDK */;
+			targetProxy = 5D4C92D527B3058700FB5D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D4C92DC27B3058700FB5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D4C92DD27B3058700FB5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4C92DF27B3058700FB5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eddiegaona-Amp-iOS-SDK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soccerfreak.eddiegaona-Amp-iOS-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D4C92E027B3058700FB5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eddiegaona-Amp-iOS-SDK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soccerfreak.eddiegaona-Amp-iOS-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D4C92E227B3058700FB5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soccerfreak.eddiegaona-Amp-iOS-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eddiegaona-Amp-iOS-SDK.app/eddiegaona-Amp-iOS-SDK";
+			};
+			name = Debug;
+		};
+		5D4C92E327B3058700FB5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soccerfreak.eddiegaona-Amp-iOS-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eddiegaona-Amp-iOS-SDK.app/eddiegaona-Amp-iOS-SDK";
+			};
+			name = Release;
+		};
+		5D4C92E527B3058700FB5D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soccerfreak.eddiegaona-Amp-iOS-SDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eddiegaona-Amp-iOS-SDK";
+			};
+			name = Debug;
+		};
+		5D4C92E627B3058700FB5D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soccerfreak.eddiegaona-Amp-iOS-SDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eddiegaona-Amp-iOS-SDK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D4C92B527B3058400FB5D80 /* Build configuration list for PBXProject "eddiegaona-Amp-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4C92DC27B3058700FB5D80 /* Debug */,
+				5D4C92DD27B3058700FB5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4C92DE27B3058700FB5D80 /* Build configuration list for PBXNativeTarget "eddiegaona-Amp-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4C92DF27B3058700FB5D80 /* Debug */,
+				5D4C92E027B3058700FB5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4C92E127B3058700FB5D80 /* Build configuration list for PBXNativeTarget "eddiegaona-Amp-iOS-SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4C92E227B3058700FB5D80 /* Debug */,
+				5D4C92E327B3058700FB5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4C92E427B3058700FB5D80 /* Build configuration list for PBXNativeTarget "eddiegaona-Amp-iOS-SDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4C92E527B3058700FB5D80 /* Debug */,
+				5D4C92E627B3058700FB5D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D5DA96327CEF4D3006205B3 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D5DA96427CEF4D3006205B3 /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D5DA96327CEF4D3006205B3 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */;
+			productName = Amplitude;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D4C92B227B3058400FB5D80 /* Project object */;
+}
